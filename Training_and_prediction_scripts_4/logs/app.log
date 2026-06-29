@@ -1,0 +1,30 @@
+2026-06-29 13:18:12,467 | INFO | Training script started
+2026-06-29 13:18:12,652 | INFO | Dataset loaded with shape (768, 9)
+2026-06-29 13:18:12,933 | INFO | Model training completed
+2026-06-29 13:18:12,996 | INFO | Train Accuracy: 0.761
+2026-06-29 13:18:12,996 | INFO | Test Accuracy: 0.734
+2026-06-29 13:18:12,997 | INFO | Train Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.84      0.78      0.81       400
+           1       0.64      0.73      0.68       214
+
+    accuracy                           0.76       614
+   macro avg       0.74      0.75      0.74       614
+weighted avg       0.77      0.76      0.76       614
+
+2026-06-29 13:18:12,997 | INFO | Test Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.82      0.75      0.79       100
+           1       0.60      0.70      0.65        54
+
+    accuracy                           0.73       154
+   macro avg       0.71      0.73      0.72       154
+weighted avg       0.75      0.73      0.74       154
+
+2026-06-29 13:18:13,033 | INFO | Model saved to D:\Machine learning Udemy\ML model deployment_9\Training_and_prediction_scripts_4\model_dir\diabetes_pipeline_trained.joblib
+2026-06-29 13:18:13,035 | INFO | Training script finished
+2026-06-29 15:17:43,140 | INFO | Model loaded
+2026-06-29 15:17:43,394 | INFO | Prediction result: No Diabetes
+2026-06-29 15:17:43,394 | INFO | Prediction script finished
