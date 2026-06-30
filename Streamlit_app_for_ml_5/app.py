@@ -49,4 +49,7 @@ if st.button("🔍 Predict"):
         st.error("The patient has Diabetes **(+ve)**")
     else:
         st.success("The patinet doen't have Diabetes **(-ve)**")
-        
+
+# RUN: streamlit run app.py
+
+
